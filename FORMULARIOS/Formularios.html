@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Formularios</title>
+</head>
+<body>
+    <form action="procesarformulario.php" method="get">
+<p>Nombre: <input type="text" name="nombre" size="40"></p>
+<p>Genero: 
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+   <input type="radio" name="hm" value="p"> Rap
+</p>
+<p>Deporte: 
+    <input type="radio"  name="fbv" value="f"> fútbol            
+    <input type="radio" name="fbv" value="b"> baloncesto
+    <input type="radio" name="fbv" value="v"> voleibol
+
+
+</p>
+     
+<p>Año de nacimiento: <input type="number" name="nacido" min="1500" >                     </p>
+
+
+<p>Foto de dni o pasaporte: <input type="file" name="foto dni o pasaporte" id="6" accept=".pdf*">
+
+</p>
+<p><input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+    </p>
+
+
+    </form>
+    
+</body>
+</html>
